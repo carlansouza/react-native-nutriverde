@@ -1,0 +1,19 @@
+<!-- Salve este conteúdo em um arquivo chamado logo.svg -->
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 200 100"
+  xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#76C7C0;}
+    .st1{fill:#6A994E;}
+    .st2{font-family:'Arial';}
+    .st3{font-size:36px;}
+  </style>
+  <circle class="st0" cx="50" cy="50" r="40"/>
+  <path class="st1" d="M50,10c22,0,40,18,40,40s-18,40-40,40S10,72,10,50S28,10,50,10 M50,0C22.4,0,0,22.4,0,50s22.4,50,50,50s50-22.4,50-50
+  S77.6,0,50,0L50,0z"/>
+  <text x="100" y="60" class="st1 st2 st3">NutriVerde</text>
+</svg>
