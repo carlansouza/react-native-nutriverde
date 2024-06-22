@@ -1,6 +1,8 @@
 // src/components/Navbar.js
 import React from 'react';
 import styled from 'styled-components/native';
+import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
+import AntDesignIcon  from 'react-native-vector-icons/AntDesign';
 
 const NavbarContainer = styled.View`
   height: 60px;
@@ -23,9 +25,9 @@ const NavbarText = styled.Text`
 const Navbar = () => {
   return (
     <NavbarContainer>
-      <NavbarText>Home</NavbarText>
-      <NavbarText>Buscar</NavbarText>
-      <NavbarText>Profile</NavbarText>
+      <FontAwesomeIcon  name='home' size={24} color={"#288474"}/>
+      <FontAwesomeIcon  name='search' size={24} color={"#288474"}/>
+      <AntDesignIcon  name='profile' size={24} color={"#288474"}/>
     </NavbarContainer>
   );
 }
