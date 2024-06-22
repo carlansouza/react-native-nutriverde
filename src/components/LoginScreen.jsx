@@ -1,12 +1,17 @@
 import React from 'react';
-import { View, TextInput, Button, Alert, Text} from 'react-native';
+import {Alert, Text} from 'react-native';
 import styled from 'styled-components/native';
 import {Logo} from './HomeScreen';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { RootStackParamList } from '../screens/types';
 
-const LoginScreen = () => {
+type Props = NativeStackScreenProps<RootStackParamList, 'Login'>;
+
+const LoginScreen: React.FC<Props> = ({ navigation }) => {
   const handleLogin = () => {
     // Lógica de autenticação aqui (pode ser uma chamada a uma API, etc.)
     Alert.alert('Login realizado com sucesso!');
+    navigation.navigate('ProductSearchScreen');  
   };
 
   return (
