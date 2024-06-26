@@ -1,7 +1,7 @@
 import React from 'react';
 import {Alert, Text} from 'react-native';
 import styled from 'styled-components/native';
-import {Logo} from './HomeScreen';
+import {Logo} from './HomeScreen2';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../screens/types';
 

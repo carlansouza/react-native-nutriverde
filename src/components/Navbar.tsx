@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components/native';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
-import AntDesignIcon  from 'react-native-vector-icons/AntDesign';
+import MaterialComunutyIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const NavbarContainer = styled.View`
   height: 60px;
@@ -13,21 +13,15 @@ const NavbarContainer = styled.View`
   justify-content: space-between;
   padding: 0 15px;
   position: absolute;
-  top: 0;
-`;
-
-const NavbarText = styled.Text`
-  color: white;
-  font-size: 18px;
-  color: #288474;
+  bottom: 0;
 `;
 
 const Navbar = () => {
   return (
     <NavbarContainer>
-      <FontAwesomeIcon  name='home' size={24} color={"#288474"}/>
-      <FontAwesomeIcon  name='search' size={24} color={"#288474"}/>
-      <AntDesignIcon  name='profile' size={24} color={"#288474"}/>
+      <FontAwesomeIcon  name='home' size={24} color={"#fff"} />
+      <FontAwesomeIcon  name='search' size={24} color={"#fff"}/>
+      <MaterialComunutyIcons  name='face-woman-profile' size={24} color={"#fff"}/>
     </NavbarContainer>
   );
 }
